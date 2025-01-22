@@ -1,7 +1,7 @@
 -- How many of each property type are there in Hyde Park?
 
-SELECT COUNT(*) FROM listings
-WHERE neighborhood = "Lincoln Park";
+SELECT COUNT (*) property_type FROM listings
+WHERE neighborhood = "Hyde Park";
 
 -- +-------------------------------------+----------+
 -- | Entire condominium (condo)          | 6        |

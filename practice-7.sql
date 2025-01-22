@@ -1,7 +1,6 @@
 -- What is the number of reviews and date of the latest review, by property type?
 
-SELECT COUNT(*) FROM listings
-WHERE neighborhood = "Lincoln Park";
+SELECT COUNT(*) property_type FROM reviews;
 
 
 -- +-------------------------------------+----------+----------------------------+

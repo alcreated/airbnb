@@ -1,7 +1,7 @@
 -- How many reviews are written per neighborhood?
 
 
-SELECT COUNT(*) FROM listings
+SELECT COUNT(*) FROM reviews
 WHERE neighborhood = "Lincoln Park";
 
 -- +------------------------+----------+
