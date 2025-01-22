@@ -1,5 +1,9 @@
 -- How many reviews are written per neighborhood?
 
+
+SELECT COUNT(*) FROM listings
+WHERE neighborhood = "Lincoln Park";
+
 -- +------------------------+----------+
 -- | Albany Park            | 2557     |
 -- | Archer Heights         | 541      |

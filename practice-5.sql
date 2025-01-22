@@ -1,5 +1,8 @@
 -- How many of each property type are there in Hyde Park?
 
+SELECT COUNT(*) FROM listings
+WHERE neighborhood = "Lincoln Park";
+
 -- +-------------------------------------+----------+
 -- | Entire condominium (condo)          | 6        |
 -- | Entire guest suite                  | 1        |
